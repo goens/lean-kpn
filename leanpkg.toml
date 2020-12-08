@@ -1,0 +1,8 @@
+[package]
+name = "kpn"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.23.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "5f151043ea58e75e15b2ec39f20986f5a6c4f379"}
